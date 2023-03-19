@@ -24,7 +24,7 @@ In this project I have 3 inputs:
 3.Please enter number of command bellow:\
   0 - removes created folder and all files inside, and finishes program;
   1 - keep's folder and all files inside, and finishes program;
-```shell
+```bash
 #1 Input
 Please enter the name of folder, you want to create:
 Adilet
@@ -34,7 +34,10 @@ Adilet		my-script.sh
 #2 Input
 Enter name of the film, you want to add to Watch List
 [end]  - to finish adding films
-[move] - if you want to move Watch List to folder Watched
+[move] - if you want to mov
+
+
+e Watch List to folder Watched
 [copy] - if you want to move Watch List to folder Watched
 
 #WatchList will look like this:
@@ -45,7 +48,7 @@ Enter name of the film, you want to add to Watch List
 
 #3 Input
 Please enter number of command bellow:
-[0] - remove folder and all file's inside;
+[0] - remove folder and all files inside;
 [1] - keep folder and all files inside;
 ```
 
