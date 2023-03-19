@@ -20,9 +20,8 @@ In this project I have 3 inputs:
    end - finish adding films;\
    move - move file to folder "Watched";\
    copy - copy file to folder "Watched";\
-
-3.Please enter number of command bellow:\
-  0 - removes created folder and all files inside, and finishes program;
+3. Please enter number of command bellow:\
+  0 - removes created folder and all files inside, and finishes program;\
   1 - keep's folder and all files inside, and finishes program;
 ```bash
 #1 Input
@@ -34,10 +33,7 @@ Adilet		my-script.sh
 #2 Input
 Enter name of the film, you want to add to Watch List
 [end]  - to finish adding films
-[move] - if you want to mov
-
-
-e Watch List to folder Watched
+[move] - if you want to move Watch List to folder Watched
 [copy] - if you want to move Watch List to folder Watched
 
 #WatchList will look like this:
