@@ -13,13 +13,13 @@ git clone https://github.com/AditelJunior/OsLab.git
 ## Usage
 
 In this project I have 3 inputs:
-1. In first input you should enter folder name you want to create.\
+1. In first input you should enter folder name you want to create.
 
 2. In second input you 4 options:\
    name of the film - will be added to WatchList.txt;\
    end - finish adding films;\
    move - move file to folder "Watched";\
-   copy - copy file to folder "Watched";\
+   copy - copy file to folder "Watched";
 3. Please enter number of command bellow:\
   0 - removes created folder and all files inside, and finishes program;\
   1 - keep's folder and all files inside, and finishes program;
