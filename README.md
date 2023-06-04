@@ -53,6 +53,20 @@ rm -r directory
 ```bash
 rmdir directory
 ```
+## Changing file/directory permissions
+- Remove read and write permission for group and other on file1
+```bash
+chmod go-rw file1
+```
+- Add execute permission for everyone file2
+```bash
+chmod a+x file2
+```
+- Set read, write, and execute permission for user read and execute for group and no permission for other on sampledir
+```bash
+chmod 750 sampledir
+```
+
 
 ## Autor
 Aitmatov Adilet;\
