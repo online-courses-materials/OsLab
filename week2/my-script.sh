@@ -58,25 +58,24 @@ ls;
 cd ../
 while :
 do
-echo 'Please enter number of command bellow:'
-echo "[0] - remove folder and all file's inside"
-echo "[1] - keep folder and all files inside"
+	echo 'Please enter number of command bellow:'
+	echo "[0] - remove folder and all file's inside"
+	echo "[1] - keep folder and all files inside"
 
-read REMOVE;
-
-case $REMOVE in
-	0)
-	rm -r $FOLDER_NAME;
-	echo $FOLDER_NAME" -FOLDER  REMOVED"
-	break;
-	;;
-	1)
-	echo $FOLDER_NAME" - FOLDER SAVED";
-	break;
-	;;
-	*)
-	echo "Sorry no such command";
-	;;
-esac
+	read REMOVE;
+	case $REMOVE in
+		0)
+		rm -r $FOLDER_NAME;
+		echo $FOLDER_NAME" -FOLDER  REMOVED";
+		break;
+		;;
+		1)
+		echo $FOLDER_NAME" - FOLDER SAVED";
+		break;
+		;;
+		*)
+		echo "Sorry no such command";
+		;;
+	esac
 done
 ls;
